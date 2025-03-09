@@ -24,5 +24,5 @@ const myIp = await lookup.get_ip_info(); // returned ipinfo.io/json object
 Find country information
 
 ```js
-const myIp = await lookup.get_country_info(); // dr5h - countries-states-cities-database
+const myCountry = await lookup.get_country_info(); // dr5h - countries-states-cities-database
 ```
