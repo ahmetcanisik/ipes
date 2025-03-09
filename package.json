@@ -1,0 +1,32 @@
+{
+  "name": "ipes",
+  "version": "1.0.0",
+  "description": "Find the user ip infos, country information and more...",
+  "main": "./dist/index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "try": "npm run build && node ."
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "find",
+    "find-user-country",
+    "find-country",
+    "country-code",
+    "find-ip-address",
+    "find-ip",
+    "ip-address"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.13.1"
+  }
+}
